@@ -1,16 +1,60 @@
-# innerweather
+# InnerWeather (Flutter)
 
-A new Flutter project.
+<p align="start">
+  <img src="screenshots/icon.png" width="120" />
+</p>
 
-## Getting Started
+A **privacy-first mood tracking mobile application** built with Flutter.  
+All data is stored **locally on the device**
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-  Daily mood tracking (0–100 scale)
+-  Weather selection for each day
+-  Optional personal notes
+-  Visual analytics (line charts)
+-  Local JSON-based data storage
+-  Manual backup & restore via JSON export/import
+-  100% offline & private
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+##  Screenshots
+
+<p align="center">
+  <img src="screenshots/home.jpeg" width="200" />
+  <img src="screenshots/days.jpeg" width="200" />
+  <img src="screenshots/insights.jpeg" width="200" />
+  <img src="screenshots/trends.jpeg" width="200" />
+</p>
+
+---
+
+##  Tech Stack
+
+- **Flutter**
+- **Dart**
+- Provider (state management)
+- FL Chart (data visualization)
+- SharedPreferences (local persistence)
+
+---
+
+##  Data & Privacy
+
+- All user data is stored **locally on the device**
+- No internet connection required
+- No analytics, ads, or third-party tracking
+- Users can export their data as a JSON file and restore it later
+
+---
+
+##  Getting Started
+
+```bash
+git clone https://github.com/aozkurt/innerweather.git
+cd innerweather
+flutter pub get
+flutter run
